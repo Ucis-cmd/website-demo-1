@@ -1,0 +1,52 @@
+.container {
+  height: auto;
+  background-color: #ebdfa4;
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+.mainHeader {
+  font-size: 56px;
+  margin: 0;
+  padding: 0;
+}
+.actionContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  margin-right: 4rem;
+  gap: 20px;
+}
+.actionContainer p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+.bigButton {
+  padding: 1rem 2rem !important;
+  width: fit-content;
+}
+.image {
+  width: 50%;
+  height: auto;
+}
+@media only screen and (max-width: 900px) {
+  .mainHeader{
+    font-size: 40px;
+  }
+  .actionContainer p {
+    font-size: 18px;
+  }
+  .childContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .actionContainer {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 1rem;
+  }
+  .image {
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  position: relative;
+  top: 40px;
+  width: auto;
+  max-height: 165px;
+  border-radius: 50%;
+}
+.textContainer {
+  width: auto;
+  height: auto;
+  max-width: 345px;
+  border: 2px solid #ad1f15;
+  border-radius: 5px;
+  text-align: center;
+  padding: 40px;
+  margin: 20px;
+}
+.textContainer p {
+  margin-top: 30px;
+}
+.workPosition {
+  font-size: 18px;
+  font-weight: 400;
+}
+.name {
+  font-size: 21px;
+}
+@media only screen and (max-width:600px) {
+  .textContainer{
+    margin: 0;
+  }
+}

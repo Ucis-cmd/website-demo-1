@@ -1,0 +1,52 @@
+.container {
+  padding-top: 4rem;
+  margin-top: 0;
+  height: auto;
+}
+.mainHeader {
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+.actionContainer {
+  text-align: left;
+  width: 50%;
+  margin-left: 4rem;
+}
+.actionContainer p {
+  margin: 0;
+  margin-top: 22px;
+  font-size: 18px;
+}
+.image {
+  width: 50%;
+  height: auto;
+  background-color: aqua;
+}
+.list {
+  list-style-position: inside;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.list li {
+  margin-top: 23px;
+  text-align: left;
+}
+@media only screen and (max-width: 1400px) {
+  .childContainer {
+    flex-direction: column-reverse;
+  }
+  .actionContainer {
+    width: 100%;
+    margin: 1rem;
+    text-align: center;
+  }
+  .list li {
+    text-align: center;
+  }
+  .image {
+    margin-top: 2rem;
+    width: 100%;
+  }
+}
